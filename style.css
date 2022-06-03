@@ -1,0 +1,234 @@
+/* font family */
+/* font-family: 'Source Code Pro', monospace; */
+/* color 06dee1 */
+
+/* -------------------------------------------- */
+
+/* common style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Source Code Pro", monospace;
+  color: grey;
+  font-weight: 200;
+}
+
+/* topbar */
+.top-bar {
+  margin-top: 20px;
+  text-align: center;
+}
+.logo {
+  font-size: 120%;
+  font-weight: 400;
+  color: rgb(95, 95, 95);
+}
+.home a,
+.github a,
+.blog a {
+  text-decoration: none;
+  color: grey;
+}
+.home:hover,
+.github:hover,
+.blog:hover {
+  border-bottom: 2px solid #06dee1;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.download-cv a {
+  text-decoration: none;
+  color: grey;
+}
+
+.download-cv {
+  border: 1px solid grey;
+  width: 60%;
+  margin: auto;
+}
+.download-cv:hover {
+  font-weight: 400;
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}
+.download-cv a:hover {
+  color: white;
+}
+/* introduction */
+.introduction {
+  height: 350px;
+  margin-top: 30px;
+  text-align: center;
+  background-color: grey;
+  color: white;
+}
+
+.introduction-row {
+  align-items: center;
+  height: 350px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.introduction-text p {
+  text-align: left;
+}
+.explore {
+  border: 1px solid white;
+  width: 40%;
+  height: 50px;
+
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+.explore:hover {
+  border: solid 1px grey;
+  background-color: white;
+  color: grey;
+  cursor: pointer;
+  font-weight: 400;
+}
+.explore p {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.animation-text a {
+  text-decoration: none;
+  font-weight: 400;
+  color: white;
+  font-size: 150%;
+}
+
+/* about-me */
+.about-me {
+  margin-top: 50px;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.about-right {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  text-align: center;
+  margin-top: 6%;
+}
+.about-right img {
+  width: 450px;
+  margin-left: 50px;
+}
+.about-right img:hover {
+  transform: rotate(-2deg);
+}
+.about-des {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.expertise {
+  text-align: left;
+}
+.table {
+  background-color: grey;
+  text-align: center;
+  color: white;
+}
+li {
+  list-style: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: 400;
+}
+li:hover {
+  color: #06dee1;
+}
+
+/* work */
+.work {
+  margin-top: 6%;
+}
+.work-row {
+  justify-content: center;
+}
+.card {
+  margin: 1rem;
+  box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+.card:hover {
+  transform: rotate(-2deg);
+}
+.card-img-top {
+  height: 150px;
+}
+.morework {
+  margin-top: 3%;
+
+  text-align: center;
+}
+.moreworkbutton {
+  border: 1px solid grey;
+}
+.moreworkbutton a:hover {
+  color: white;
+}
+.moreworkbutton:hover {
+  color: white;
+  background-color: grey;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+/* footer-cr */
+.footer-cr {
+  margin-top: 2%;
+  text-align: center;
+  background-color: grey;
+  color: white;
+  height: 200px;
+}
+.footer-cr p {
+  margin-top: 2%;
+}
+.socialicon {
+  font-size: 150%;
+  cursor: pointer;
+}
+.socialicon i:hover {
+  color: #06dee1;
+}
+
+/* project-container */
+.project-container {
+  margin-top: 6%;
+  text-align: left;
+}
+.project-title {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border: 1px solid #232943;
+  /* box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5); */
+}
+::-webkit-scrollbar-thumb {
+  /* background: linear-gradient(45deg, #06dee1, #7747ec); */
+  background-color: #06dee1;
+  border-radius: 3px;
+}

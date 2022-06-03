@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ayush Niraula</title>
+    <link rel="shortcut icon" href="battery-charging.svg" type="image/x-icon" />
+
+    <!-- bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <!-- stylesheet -->
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- topbar -->
+    <div class="top-bar container">
+      <div class="row">
+        <div class="col col-3">
+          <div class="row">
+            <div class="col home"><a href="index.html">Home</a></div>
+            <div class="col blog"><a href="#">Blog</a></div>
+            <div class="col github"><a href="#">Github</a></div>
+          </div>
+        </div>
+        <div class="col col-6">
+          <div class="logo">
+            <i class="bi bi-battery-charging"></i> Ayush Niraula
+          </div>
+        </div>
+        <div class="col col-3">
+          <div class="download-cv">
+            <a href="ayushNiraula.pdf" download>Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- introduction -->
+
+    <div class="container-fluid introduction">
+      <div class="row introduction-row">
+        <div class="col">
+          <h1>Ayush Niraula</h1>
+          <div class="animation-text">
+            <a
+              href=""
+              class="typewrite"
+              data-period="2000"
+              data-type='[  "Code is like humor.", "When you have to explain it.", "it’s bad." ]'
+            >
+              <span class="wrapani"></span>
+            </a>
+          </div>
+        </div>
+        <div class="col introduction-text">
+          <p>
+            <b> Ayush Niraula</b> sit amet consectetur adipisicing elit. Aliquid
+            unde voluptas itaque ipsum ullam, minus id accusamus repellendus
+            suscipit porro, ab omnis blanditiis expedita ex saepe maxime
+            voluptates, incidunt non. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit.
+          </p>
+          <a href="#projects">
+            <div class="explore"><p>Explore Projects</p></div></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- about me -->
+    <div class="container about-me">
+      <div class="row">
+        <div class="about-grid">
+          <div class="about-des">
+            <h3>🔤About Me</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              ex nobis maxime labore, illo aspernatur, dolore minima quo, iste
+              iure voluptatum vitae. Eveniet distinctio, reiciendis cumque
+              aspernatur quo recusandae laboriosam!
+            </p>
+          </div>
+          <div class="expertise">
+            <h3>Expertise</h3>
+            <div class="table">
+              <ul>
+                <li>Web Development</li>
+                <li>Javascript</li>
+                <li>React</li>
+                <li>React</li>
+                <li>HTML/CSS</li>
+                <li>Node.Js</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="about-right">
+            <img src="ayushimage.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- work  -->
+    <div class="container work" id="projects">
+      <div class="row work-row">
+        <h3>Projects</h3>
+        <div class="card card1" style="width: 18rem">
+          <img class="card-img-top" src="work2.png" alt="Card image cap" />
+          <div class="card-body">
+            <p class="card-text">
+              <b>React</b><br />
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card card2" style="width: 18rem">
+          <img class="card-img-top" src="work1.png" alt="Card image cap" />
+          <div class="card-body">
+            <p class="card-text">
+              <b>HTML/CSS</b><br />
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+        <div class="card card3" style="width: 18rem">
+          <img class="card-img-top" src="work3.png" alt="Card image cap" />
+          <div class="card-body">
+            <p class="card-text">
+              <b>JavaScript</b><br />
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row morework">
+        <div class="col-5"></div>
+        <div class="col-2">
+          <div class="moreworkbutton"><a href="project.html">View All</a></div>
+        </div>
+        <div class="col-5"></div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="container-fluid">
+      <div class="row footer-cr">
+        <p>© 2021 Ayush Niraula. All rights reserved.</p>
+        <div class="socialicon">
+          <i class="bi bi-facebook"></i> <i class="bi bi-instagram"></i>
+          <i class="bi bi-github"></i> <i class="bi bi-linkedin"></i>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
